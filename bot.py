@@ -24,7 +24,7 @@ ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "1329")
 MINI_APP_URL = os.getenv("MINI_APP_URL", "https://grammintora.space")
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 
-if not BOT_TOKEN:8867042932:AAGJpI3jj6rRGJrg5ccjI3OmIgAUknK5LzA
+if not BOT_TOKEN:
     raise SystemExit("BOT_TOKEN is not set")
 
 # ============================================================
